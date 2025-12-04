@@ -28,7 +28,7 @@ $vessel_name = isset($_POST['vessel_name']) ? trim($_POST['vessel_name']) : null
 $etd = isset($_POST['etd']) ? trim($_POST['etd']) : null;
 $cy_open = isset($_POST['cy_open']) ? trim($_POST['cy_open']) : null;
 $cy_closing = isset($_POST['cy_closing']) ? trim($_POST['cy_closing']) : null;
-$depo_name = isset($_POST['depo_name']) ? trim($_POST['depo_name']) : null;
+$depo_name = isset($_POST['depo_name']) ? trim(``$_POST['depo_name']) : null;
 $cy_name = isset($_POST['cy_name']) ? trim($_POST['cy_name']) : null;
 $pic_name = isset($_POST['pic_name']) ? trim($_POST['pic_name']) : null;
 
